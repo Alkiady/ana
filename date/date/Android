@@ -1,0 +1,52 @@
+Problem description
+After upgrading to apt_2.3.13-1_aarch64.deb ,apt can not work
+
+0 ~ Mi9: apt
+CANNOT LINK EXECUTABLE "apt": cannot locate symbol "__emutls_get_address" referenced by "/data/data/com.termux/files/usr/lib/libapt-pkg.so"...
+
+What steps will reproduce the bug?
+upgrade apt
+
+What is the expected behavior?
+No response
+
+System information
+termux-info:
+
+1 ~ Mi9: termux-info
+Application version:
+unsupported
+Packages CPU architecture:
+aarch64
+Subscribed repositories:
+
+sources.list
+deb https://mirrors.ustc.edu.cn/termux/apt/termux-main stable main
+
+unstable-repo (sources.list.d/unstable.list)
+deb https://grimler.se/unstable-packages unstable main
+
+sources.list.d/pointless.list
+deb https://its-pointless.github.io/files/24 termux extras
+
+game-repo (sources.list.d/game.list)
+deb https://grimler.se/game-packages-24 games stable
+
+root-repo (sources.list.d/root.list)
+deb https://grimler.se/termux-root-packages-24 root stable
+
+science-repo (sources.list.d/science.list)
+deb https://grimler.se/science-packages-24 science stable
+
+x11-repo (sources.list.d/x11.list)
+deb https://packages.termux.org/apt/termux-x11 x11 main
+Updatable packages:
+All packages up to date
+Android version:
+9
+Kernel build information:
+Linux localhost 4.14.83-perf+ #1 SMP PREEMPT Tue Oct 29 01:26:23 CST 2019 aarch64 Android
+Device manufacturer:
+Xiaomi
+Device model:
+Mi9 Pro 5G
