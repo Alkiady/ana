@@ -1,0 +1,1 @@
+r, err := git.Clone(memory.NewStorage(), nil, &git.CloneOptions{ URL: "https://github.com/go-git/go-git", })
