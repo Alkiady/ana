@@ -1,0 +1,1 @@
+$ git add date_test.txt .gitattributes $ git commit -m "Test date expansion in Git" $ rm date_test.txt $ git checkout date_test.txt $ cat date_test.txt # $Date: Tue Apr 21 07:26:52 2009 -0700
