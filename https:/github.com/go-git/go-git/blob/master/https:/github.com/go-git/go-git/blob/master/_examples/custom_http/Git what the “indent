@@ -1,0 +1,2 @@
+git config --global filter.indent.clean indent
+git config --global filter.indent.smudge cat
