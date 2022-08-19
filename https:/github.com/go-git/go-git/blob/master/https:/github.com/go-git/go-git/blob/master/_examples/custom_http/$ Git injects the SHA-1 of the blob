@@ -1,0 +1,1 @@
+rm test.txt $ git checkout -- test.txt $ cat test.txt $Id: 42812b7653c7b88933f8a9d6cad0ca16714b9bb3
