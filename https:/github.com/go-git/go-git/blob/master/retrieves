@@ -1,0 +1,1 @@
+// retrieves the branch pointed by HEAD ref, err := r.Head() // get the commit object, pointed by ref commit, err := r.CommitObject(ref.Hash()) // retrieves the commit history history, err := commit.History() // iterates over the commits and print each for _, c := range history { fmt.Println(c) }
